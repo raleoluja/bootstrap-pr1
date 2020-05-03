@@ -1,0 +1,88 @@
+:root {
+    --violet: rgb(65, 42, 107);
+    --yellow: #fadb61;
+    --gray: #f8f8f8;
+}
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bolder;
+}
+
+/************ 
+nav 
+************/
+
+.bg-light {
+    background: var(--violet) !important;
+}
+
+.navbar-light .navbar-brand {
+    color: var(--gray);
+}
+
+.navbar-light .navbar-brand:hover {
+    color: var(--yellow);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--gray);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--yellow);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--yellow);
+}
+/************ 
+slider
+************/
+
+/************ 
+about 
+************/
+
+/************ 
+works
+************/
+
+
+/************ 
+flex 
+************/
+
+
+/************ 
+services
+************/
+
+
+/************ 
+partners 
+************/
+
+
+/************ 
+team
+************/
+
+
+
+/************ 
+contact
+************/
+
+
+/************ 
+footer
+************/
+
+
+
+
+@media only screen and (max-width: 600px) {
+   
+}
