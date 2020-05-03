@@ -41,6 +41,10 @@ nav
 slider
 ************/
 
+.carousel-caption {
+    top: 30%;
+}
+
 /************ 
 about 
 ************/
