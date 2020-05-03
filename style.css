@@ -10,6 +10,28 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bolder;
 }
 
+.btn-outline-primary {
+    border-color: var(--yellow) !important;
+    color: var(--yellow) !important;
+}
+
+.btn-outline-primary:hover {
+    background: var(--yellow) !important;
+    color: var(--violet) !important;
+}
+
+.underline {
+    width: 20%;
+    background: var(--yellow);
+    height: 9px;
+    margin: 20px auto;
+}
+
+.heading {
+    color: var(--violet);
+    font-size: 3rem;
+}
+
 /************ 
 nav 
 ************/
@@ -49,10 +71,30 @@ slider
 about 
 ************/
 
+.about .lead {
+    font-style: italic;
+}
+
+.about img {
+    border-radius: 40px;
+}
+
 /************ 
 works
 ************/
 
+.works {
+    background: var(--gray);
+    padding: 50px;
+}
+
+.works .col-md-3 {
+    padding: 10px;
+}
+
+.works img {
+    border-radius: 30px;
+}
 
 /************ 
 flex 
