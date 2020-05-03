@@ -100,6 +100,18 @@ works
 flex 
 ************/
 
+.flex {
+    background-image: linear-gradient(rgba(65, 42, 107,.7), rgba(65, 42, 107,.7)), url(img/slide1.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    color: var(--yellow);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /************ 
 services
