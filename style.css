@@ -210,5 +210,19 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-   
+    .carousel-caption .display-2 {
+        font-size: 1.4rem;
+    }
+    .carousel-caption {
+        top: 0;
+    }
+    .slide .carousel-item .btn {
+        display: none;
+    }
+    .slide .carousel-indicators {
+        display: none;
+    }
+    .partners {
+        height: 85vh;
+    }
 }
