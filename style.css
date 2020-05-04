@@ -1,35 +1,42 @@
 :root {
-    --violet: rgb(65, 42, 107);
-    --yellow: #fadb61;
-    --gray: #f8f8f8;
+  --violet: rgb(65, 42, 107);
+  --yellow: #fadb61;
+  --gray: #f8f8f8;
 }
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bolder;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
 }
 
 .btn-outline-primary {
-    border-color: var(--yellow) !important;
-    color: var(--yellow) !important;
+  border-color: var(--yellow) !important;
+  color: var(--yellow) !important;
 }
 
 .btn-outline-primary:hover {
-    background: var(--yellow) !important;
-    color: var(--violet) !important;
+  background: var(--yellow) !important;
+  color: var(--violet) !important;
 }
 
 .underline {
-    width: 20%;
-    background: var(--yellow);
-    height: 9px;
-    margin: 20px auto;
+  width: 20%;
+  background: var(--yellow);
+  height: 9px;
+  margin: 20px auto;
 }
 
 .heading {
-    color: var(--violet);
-    font-size: 3rem;
+  color: var(--violet);
+  font-size: 3rem;
 }
 
 /************ 
@@ -37,34 +44,38 @@ nav
 ************/
 
 .bg-light {
-    background: var(--violet) !important;
+  background: var(--violet) !important;
 }
 
 .navbar-light .navbar-brand {
-    color: var(--gray);
+  color: var(--gray);
 }
 
 .navbar-light .navbar-brand:hover {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--gray);
+  color: var(--gray);
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: var(--yellow);
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: var(--yellow);
 }
+
 /************ 
 slider
 ************/
 
 .carousel-caption {
-    top: 30%;
+  top: 30%;
 }
 
 /************ 
@@ -72,11 +83,11 @@ about
 ************/
 
 .about .lead {
-    font-style: italic;
+  font-style: italic;
 }
 
 .about img {
-    border-radius: 40px;
+  border-radius: 40px;
 }
 
 /************ 
@@ -84,16 +95,16 @@ works
 ************/
 
 .works {
-    background: var(--gray);
-    padding: 50px;
+  background: var(--gray);
+  padding: 50px;
 }
 
 .works .col-md-3 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .works img {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 /************ 
@@ -101,34 +112,37 @@ flex
 ************/
 
 .flex {
-    background-image: linear-gradient(rgba(65, 42, 107,.7), rgba(65, 42, 107,.7)), url(img/slide1.jpg);
-    background-size: cover;
-    height: 400px;
-    background-position: center;
-    display: flex;
-    color: var(--yellow);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(
+      rgba(65, 42, 107, 0.7),
+      rgba(65, 42, 107, 0.7)
+    ),
+    url(img/slide1.jpg);
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  display: flex;
+  color: var(--yellow);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /************ 
 services
 ************/
 
 .services {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 .services .carousel-caption {
-    color: #555;
+  color: #555;
 }
 .carousel-item .col-md-7 {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .carousel-indicators li {
-    background-color: var(--violet);
+  background-color: var(--violet);
 }
 
 /************ 
@@ -136,45 +150,50 @@ partners
 ************/
 
 .partners {
-    background-image: linear-gradient(rgba(65, 42, 107,.7), rgba(65, 42, 107,.7)), url(img/slide1.jpg);
-    background-size: cover;
-    height: 300px;
-    background-position: center;
+  background-image: linear-gradient(
+      rgba(65, 42, 107, 0.7),
+      rgba(65, 42, 107, 0.7)
+    ),
+    url(img/slide1.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: center;
 }
 
 .partners .row {
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 }
+
 /************ 
 team
 ************/
 
 .team img {
-    border-radius: 30px;
-    margin: 50px 0;
+  border-radius: 30px;
+  margin: 50px 0;
 }
 
 .team h3 {
-    margin: 20px 0 5px 0;
+  margin: 20px 0 5px 0;
 }
 
 /************ 
 forma
 ************/
 .form {
-    background: var(--gray);
+  background: var(--gray);
 }
 
 .form .btn {
-    background: var(--violet);
-    color: var(--yellow);
+  background: var(--violet);
+  color: var(--yellow);
 }
 
 .form .btn:hover {
-    background: var(--yellow);
-    color: var(--violet);
+  background: var(--yellow);
+  color: var(--violet);
 }
 
 /************ 
@@ -182,47 +201,43 @@ contact
 ************/
 
 .contact .fas {
-    font-size: 2rem;
-    color: var(--violet);
+  font-size: 2rem;
+  color: var(--violet);
 }
 
 .contact ul li a {
-    font-size: 3rem;
-    color: var(--violet);
+  font-size: 3rem;
+  color: var(--violet);
 }
 
 .contact ul li :hover {
-    color: var(--yellow);
+  color: var(--yellow);
 }
-
 
 /************ 
 footer
 ************/
 
 footer {
-    background: var(--yellow);
-    color: var(--violet);
-    font-weight: bold;
+  background: var(--yellow);
+  color: var(--violet);
+  font-weight: bold;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
-    .carousel-caption .display-2 {
-        font-size: 1.4rem;
-    }
-    .carousel-caption {
-        top: 0;
-    }
-    .slide .carousel-item .btn {
-        display: none;
-    }
-    .slide .carousel-indicators {
-        display: none;
-    }
-    .partners {
-        height: 85vh;
-    }
+  .carousel-caption .display-2 {
+    font-size: 1.4rem;
+  }
+  .carousel-caption {
+    top: 0;
+  }
+  .slide .carousel-item .btn {
+    display: none;
+  }
+  .slide .carousel-indicators {
+    display: none;
+  }
+  .partners {
+    height: 85vh;
+  }
 }
