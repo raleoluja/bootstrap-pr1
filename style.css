@@ -181,6 +181,20 @@ forma
 contact
 ************/
 
+.contact .fas {
+    font-size: 2rem;
+    color: var(--violet);
+}
+
+.contact ul li a {
+    font-size: 3rem;
+    color: var(--violet);
+}
+
+.contact ul li :hover {
+    color: var(--yellow);
+}
+
 
 /************ 
 footer
