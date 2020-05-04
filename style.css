@@ -126,19 +126,27 @@ services
 .carousel-item .col-md-7 {
     margin-top: 80px;
 }
+
 .carousel-indicators li {
     background-color: var(--violet);
 }
-.carousel-caption img {
-    border-radius: 30px;
-}
-
 
 /************ 
 partners 
 ************/
 
+.partners {
+    background-image: linear-gradient(rgba(65, 42, 107,.7), rgba(65, 42, 107,.7)), url(img/slide1.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
 
+.partners .row {
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
 /************ 
 team
 ************/
