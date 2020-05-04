@@ -161,6 +161,23 @@ team
 }
 
 /************ 
+forma
+************/
+.form {
+    background: var(--gray);
+}
+
+.form .btn {
+    background: var(--violet);
+    color: var(--yellow);
+}
+
+.form .btn:hover {
+    background: var(--yellow);
+    color: var(--violet);
+}
+
+/************ 
 contact
 ************/
 
